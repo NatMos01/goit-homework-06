@@ -650,7 +650,7 @@ li {
 
 /*modal*/
 .backdrop {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -668,7 +668,6 @@ li {
 	transform: translate(-50%, -50%);
 	width: 408px;
 	height: 584px;
-	padding: 516 80 516 12;
 	background: var(--primary-white-color);
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
@@ -724,6 +723,7 @@ li {
 }
 
 .modal-form {
+	padding: 72px 24px 24px 24px;
 }
 .modal-form-field {
 	display: block;
@@ -761,6 +761,9 @@ li {
 	letter-spacing: 0.01em;
 	color: var(--icons-fill-color);
 	margin-bottom: 4px;
+}
+.specific {
+	margin-bottom: 16px;
 }
 
 .modal-form-check-descr::before {
