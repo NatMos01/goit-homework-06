@@ -668,6 +668,7 @@ li {
 	transform: translate(-50%, -50%);
 	width: 408px;
 	height: 584px;
+	padding: 72px 24px 24px 24px;
 	background: var(--primary-white-color);
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
@@ -723,7 +724,7 @@ li {
 }
 
 .modal-form {
-	padding: 72px 24px 24px 24px;
+	
 }
 .modal-form-field {
 	display: block;
@@ -751,7 +752,9 @@ li {
 	border-color: var(--primary-links-color);
 	outline: none;
 }
-.modal-form-input:hover + .modal-form-input-icon {
+.modal-form-input:hover 
+.modal-form-input:focus
++ .modal-form-input-icon {
 	fill: var(--primary-links-color);
 }
 .modal-form-input-descr {
